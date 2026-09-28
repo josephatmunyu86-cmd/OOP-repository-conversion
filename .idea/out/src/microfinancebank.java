@@ -15,5 +15,11 @@ public class microfinancebank{
         String interestasstring= Integer.toString(interestasint);
         long roundedinterest= Math.round(interestamount);
         long roundedfinalamount= Math.round(depositasdouble+interestamount);
+
+        System.out.println("CUSTOMER DETAILS");
+        System.out.println("Customer Name: " + name);
+        System.out.println("Deposit Amount: " + deposit);
+        System.out.println("Interest Rate: " + interest+"%");
+        System.out.println("calculated Interest: " + interestamount);
     }
 }
