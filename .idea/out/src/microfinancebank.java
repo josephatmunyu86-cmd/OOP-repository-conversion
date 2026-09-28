@@ -29,5 +29,11 @@ public class microfinancebank{
         System.out.println("after explicit conversion to int: " + interestasint);
         System.out.println("after implicit conversion to string: " + interestasstring);
 
+        System.out.println("ACCOUNT SUMMARY");
+        System.out.println("Interest Earned: " + roundedinterest);
+        System.out.println("Final Amount: " + roundedfinalamount);
+
+        input.close();
+
     }
 }
