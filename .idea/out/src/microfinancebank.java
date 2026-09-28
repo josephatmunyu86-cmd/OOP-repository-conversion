@@ -13,5 +13,7 @@ public class microfinancebank{
         double interestamount= depositasdouble*interest/100;
         int interestasint= (int) interestamount;
         String interestasstring= Integer.toString(interestasint);
+        long roundedinterest= Math.round(interestamount);
+        long roundedfinalamount= Math.round(depositasdouble+interestamount);
     }
 }
