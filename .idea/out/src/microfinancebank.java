@@ -21,5 +21,13 @@ public class microfinancebank{
         System.out.println("Deposit Amount: " + deposit);
         System.out.println("Interest Rate: " + interest+"%");
         System.out.println("calculated Interest: " + interestamount);
+
+        System.out.println("CONVERSION DEMONSTRATION");
+        System.out.println("orginal deposit amount: " + deposit);
+        System.out.println("after explicit conversion to double: " + depositasdouble);
+        System.out.println("original interest:"+interestamount);
+        System.out.println("after explicit conversion to int: " + interestasint);
+        System.out.println("after implicit conversion to string: " + interestasstring);
+
     }
 }
