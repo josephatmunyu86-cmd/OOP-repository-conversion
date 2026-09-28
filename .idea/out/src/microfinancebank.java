@@ -11,5 +11,6 @@ public class microfinancebank{
 
         double depositasdouble= (double) deposit;
         double interestamount= depositasdouble*interest/100;
+        int interestasint= (int) interestamount;
     }
 }
