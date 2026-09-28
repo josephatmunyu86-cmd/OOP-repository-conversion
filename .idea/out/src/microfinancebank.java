@@ -8,5 +8,7 @@ public class microfinancebank{
         int  deposit= input.nextInt();
         System.out.println("Enter interest rate:");
         double interest= input.nextDouble();
+        
+        double depositasdouble= (double) deposit;
     }
 }
